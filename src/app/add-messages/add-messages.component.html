@@ -1,0 +1,9 @@
+<form action="#" method="post" (ngSubmit)="setMessage()">
+    <label for="">
+        <input name="message" id="" [(ngModel)]="message">
+    </label>
+    <button>Enviar</button>
+</form>
+{{messagesService.messages}} 
+
+{{message}}

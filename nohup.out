@@ -1,0 +1,20 @@
+Node.js version v19.8.1 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/releases/.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   1.71 MB |
+polyfills.js          | polyfills     | 314.29 kB |
+styles.css, styles.js | styles        | 209.41 kB |
+main.js               | main          |  11.27 kB |
+runtime.js            | runtime       |   6.53 kB |
+
+| Initial Total |   2.24 MB
+
+Build at: 2023-04-02T04:30:15.644Z - Hash: 83adce4c3d227bd1 - Time: 9812ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.

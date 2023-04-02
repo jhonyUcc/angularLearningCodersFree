@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'exerciseSinglePage';
+  objetoPruebas:object = {
+    id: 3,
+    nombre: "david"
+  }
+  objetoPruebas2:string = "juan"
 }
