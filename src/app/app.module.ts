@@ -8,6 +8,9 @@ import { AddMessagesComponent } from './add-messages/add-messages.component';
 import { ListMessagesComponent } from './list-messages/list-messages.component';
 import { FormsModule } from '@angular/forms';
 
+import { RoutingModule } from './routing/routing.module';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

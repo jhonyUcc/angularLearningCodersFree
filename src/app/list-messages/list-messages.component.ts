@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MessagesService } from "../messages.service";
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-list-messages',
@@ -7,7 +8,16 @@ import { MessagesService } from "../messages.service";
   styleUrls: ['./list-messages.component.css']
 })
 export class ListMessagesComponent {
-  constructor(public messagesService :  MessagesService){
+
+  routeParam:string = "";
+  constructor(public messagesService :  MessagesService, private route: ActivatedRoute){
+
+
+    this.route.params.subscribe(params=>{
+      
+      this.routeParam = params['route'];
+      
+    });
 
   }
 }
